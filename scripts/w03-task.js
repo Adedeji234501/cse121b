@@ -50,7 +50,7 @@ document.querySelector('#getTotal').addEventListener('click', function() {
     let applyDiscount = document.querySelector('#member').checked;
 
     if (applyDiscount) {
-        subtotal *= 0.2; // Apply 20% discount
+        subtotal *= 0.8; // Apply 20% discount
     }
 
     document.querySelector('#total').textContent = `Total Due: $${subtotal.toFixed(2)}`;
